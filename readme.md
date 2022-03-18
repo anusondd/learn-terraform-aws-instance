@@ -1,36 +1,36 @@
-Build Infrastructure
+# Build Infrastructure
 
-# Configure the AWS CLI
+Configure the AWS CLI
  - aws configure
 
-# Initialize the directory
+Initialize the directory
  - terraform init
 
-# Format and validate the configuration
+Format and validate the configuration
  - terraform fmt
  - terraform validate
 
-# Create infrastructure
+Create infrastructure
  - terraform apply
 
-# Inspect state
+Inspect state
  - terraform show
 
-# Manually Managing State
+Manually Managing State
  - terraform state list
 
 
-Change Infrastructure
- # Configuration
+# Change Infrastructure
+ Configuration
   - update main.tf
 
- # Apply Changes
+ Apply Changes
   - terraform apply
 
-Destroy Infrastructure
- # Destroy
+# Destroy Infrastructure
+ Destroy
   - terraform destroy
 
-Query Data with Outputs
- # Inspect output values
+# Query Data with Outputs
+ Inspect output values
   - terraform output
